@@ -16,7 +16,7 @@ const Comp = () => {
       <Row>
         <Col className="text-center">
           <Link href={`/channels/${channelId}`}>
-            <Button>Create Channel</Button>
+            <Button>Join Channel</Button>
           </Link>
         </Col>
       </Row>

@@ -26,7 +26,7 @@ const Comp = () => {
           <Row>
             <Col>
               <Button type="primary" block onClick={onInvite}>
-                邀請好友加入
+                Invite your friend
               </Button>
             </Col>
           </Row>
