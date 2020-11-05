@@ -3,3 +3,21 @@
 .section {
   padding: 20px;
 }
+
+.screens {
+  .screen-container:nth-child(odd) {
+    justify-content: flex-start;
+  }
+}
+
+.screens {
+  .screen-container:nth-child(even) {
+    justify-content: flex-end;
+  }
+}
+
+.screen {
+  width: 300px;
+  height: 300px;
+  background-color: #eee;
+}
