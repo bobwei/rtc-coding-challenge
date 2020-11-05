@@ -1,10 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Link from 'next/link';
-import short from 'short-uuid';
 
 const Comp = () => {
-  const channelId = short.generate();
+  const channelId = 'channel';
   return (
     <Container>
       <Row className="section" />
